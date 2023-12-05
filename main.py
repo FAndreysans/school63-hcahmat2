@@ -6,11 +6,11 @@ t = [[1,2,3,0,0,3,2,1],
      [11,12,13,0,0,13,12,11]]
 def hod(t):
      print("введите коардинаты фигуры х у")
-     x = int(input())
-     y = int(input())
-     if t[x][y] == 0:
+     xf = int(input())
+     yf = int(input())
+     if t[xf][yf] == 0:
           print("там пусто...(как в моём кошельке)")
-     if t[x][y] == 4 or t[x][y] == 14:
+     if t[xf][yf] == 4 or t[xf][yf] == 14:
           print("введите куда сходить х у")
           x = int(input())
           y = int(input())
